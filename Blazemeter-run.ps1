@@ -262,7 +262,7 @@ Function StartTest([string]$StartTestid,[string] $multitests,[string] $functiona
 									}
 									else{
 										  Write-Host "##vso[task.complete result=Succeeded;]DONE";
-										  exit 1;	
+										  #exit 1;	
 									 }
 
 								
